@@ -273,7 +273,7 @@ nginx_install(){
             --with-http_flv_module                              \
             --with-http_mp4_module                              \
             --with-http_secure_link_module                      \
-            --with-ngx_stream_ssl_preread_module                \
+            --with-stream_ssl_preread_module                    \
             --with-http_v2_module                               \
             --with-openssl=../openssl-"$openssl_version"
     judge "编译检查"
