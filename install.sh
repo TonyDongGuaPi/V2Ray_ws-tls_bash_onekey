@@ -273,6 +273,8 @@ nginx_install(){
             --with-http_flv_module                              \
             --with-http_mp4_module                              \
             --with-http_secure_link_module                      \
+            --with-stream                                       \
+            --with-stream_ssl_module                            \
             --with-stream_ssl_preread_module                    \
             --with-http_v2_module                               \
             --with-openssl=../openssl-"$openssl_version"
